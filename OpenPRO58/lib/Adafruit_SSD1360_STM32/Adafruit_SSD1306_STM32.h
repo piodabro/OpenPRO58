@@ -34,7 +34,7 @@ All text above, and the splash screen must be included in any redistribution
 */
 //typedef volatile RwReg PortReg;
 // typedef uint32_t PortMask;
-#include <SPI.h>
+// #include <SPI.h>
 #include <Adafruit_GFX_AS.h>
 
 #define BLACK 0
@@ -160,9 +160,9 @@ class Adafruit_SSD1306 : public Adafruit_GFX {
 
  private:
   int8_t _i2caddr, _vccstate, sid, sclk, dc, rst, cs;
-  void fastSPIwrite(uint8_t c);
+  // void fastSPIwrite(uint8_t c);
 
-  boolean hwSPI;
+  // boolean hwSPI;
 volatile uint32 *mosiport, *clkport, *csport, *dcport;
    uint32_t  mosipinmask, clkpinmask, cspinmask, dcpinmask;
 
