@@ -1,28 +1,39 @@
-Follow this video
+Development Env Configuration
+=====
 
-https://www.youtube.com/watch?v=MLEQk73zJoU&t=297s
+1. Download and install Visual Studio Code https://code.visualstudio.com/
+2. In VS Code go to View -> Extensions, search for PlatformIO IDE and install it.
+3. Restart VS Code then open project folder with File -> Open Folder.
+4. Open Platformio terminal and write "pio run".
+[Platformio Terminal](PIO_term.PNG)
 
-Set the Arduino accoring to the picture
+Platformio should now download required toolchain, libraries and other stuff and then build project.
 
-# ![Settings](settings.PNG)
+~~Follow this video~~
 
-Don't mind the processor suffix is CB. On the board is C8 - but it is just a name. ST puts same silicon inside :) Otherwise we are not able to fit the code inside the chip
+~~https://www.youtube.com/watch?v=MLEQk73zJoU&t=297s~~
 
-In installed library for STM32 change in library folder under STM32F103 files for display
+~~Set the Arduino accoring to the picture~~
 
-Path:.\Arduino\Hardware\Arduino_STM32-master\STM32F1\libraries\Adafruit_SSD1306
+~~# [Settings]settings.PNG~~
 
-From
+~~Don't mind the processor suffix is CB. On the board is C8 - but it is just a name. ST puts same silicon inside :) Otherwise we are not able to fit the code inside the chip~~
 
-//HardWire HWIRE(1,I2C_FAST_MODE); // I2c1
+~~In installed library for STM32 change in library folder under STM32F103 files for display~~
 
-HardWire HWIRE(2,I2C_FAST_MODE); // I2c2
+~~Path:.\Arduino\Hardware\Arduino_STM32-master\STM32F1\libraries\Adafruit_SSD1306~~
 
-To
+~~From~~
 
-HardWire HWIRE(1,I2C_FAST_MODE); // I2c1
+~~//HardWire HWIRE(1,I2C_FAST_MODE); // I2c1~~
 
-//HardWire HWIRE(2,I2C_FAST_MODE); // I2c2
+~~HardWire HWIRE(2,I2C_FAST_MODE); // I2c2~~
+
+~~To~~
+
+~~HardWire HWIRE(1,I2C_FAST_MODE); // I2c1~~
+
+~~//HardWire HWIRE(2,I2C_FAST_MODE); // I2c2~~
 
 
-//note not neccessary now, library is part of the project
+~~//note not neccessary now, library is part of the project~~
