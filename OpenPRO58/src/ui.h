@@ -2,7 +2,7 @@
 #define UI_H
 
 #include <Wire.h>
-#include <Adafruit_GFX.h>
+#include <Adafruit_GFX_AS.h>
 #include "Adafruit_SSD1306_STM32.h"
 
 #define OLED_RESET -1

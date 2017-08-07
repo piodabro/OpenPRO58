@@ -35,7 +35,7 @@ All text above, and the splash screen must be included in any redistribution
 //typedef volatile RwReg PortReg;
 // typedef uint32_t PortMask;
 #include <SPI.h>
-#include <Adafruit_GFX.h>
+#include <Adafruit_GFX_AS.h>
 
 #define BLACK 0
 #define WHITE 1

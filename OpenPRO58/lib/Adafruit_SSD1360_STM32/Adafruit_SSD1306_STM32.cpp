@@ -23,10 +23,10 @@ All text above, and the splash screen below must be included in any redistributi
 #include <stdlib.h>
 
 //#include <HWIRE.h>
-#include <Wire.h>
+#include <HardWire.h>
 HardWire HWIRE(1,I2C_FAST_MODE); // I2c1
 //HardWire HWIRE(2,I2C_FAST_MODE); // I2c2
-#include <Adafruit_GFX.h>
+#include <Adafruit_GFX_AS.h>
 #include "Adafruit_SSD1306_STM32.h"
 
 #ifndef swap
