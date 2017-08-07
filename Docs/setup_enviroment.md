@@ -5,7 +5,7 @@ Development Env Configuration
 2. In VS Code go to View -> Extensions, search for PlatformIO IDE and install it.
 3. Restart VS Code then open project folder with File -> Open Folder.
 4. Open Platformio terminal and write "pio run".
-[Platformio Terminal](PIO_term.PNG)
+# ![Platformio Terminal](PIO_term.PNG)
 
 Platformio should now download required toolchain, libraries and other stuff and then build project.
 
