@@ -36,8 +36,7 @@ cache:
 install:
     - pip install -U platformio
 
-script:
-    - platformio run
+script: sh -c 'cd OpenPRO58 && platformio run'
 
 
 #
