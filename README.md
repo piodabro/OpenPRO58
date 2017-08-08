@@ -18,5 +18,5 @@ ToDo
 - ~~convert soft SPI for modules to hardware~~
 - make code smaller, now it exceedes C8T6 64kByte limit.
 
-How to setup development enviroment https://github.com/MartinLaza/OpenPRO58/blob/master/Docs/setup_enviroment.md
+How to setup development enviroment https://github.com/piodabro/OpenPRO58/blob/master/Docs/setup_enviroment.md
 How to wire to the module https://github.com/MartinLaza/OpenPRO58/blob/master/Docs/how_to_wire.md
