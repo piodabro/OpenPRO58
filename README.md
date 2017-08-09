@@ -15,7 +15,7 @@ Major differnecies:
 
 ToDo
 - clean-up EEPROM code - done in very dirty way
-- ~~convert soft SPI for modules to hardware~~
+- ~~convert soft SPI for modules to hardware~~ <- Pins of SPI are swapped, only software SPI can work.
 - make code smaller, now it exceedes C8T6 64kByte limit.
 
 How to setup development enviroment https://github.com/piodabro/OpenPRO58/blob/master/Docs/setup_enviroment.md
