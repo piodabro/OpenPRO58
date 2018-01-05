@@ -1,3 +1,6 @@
+# THIS REPO IS DEPRECATED, ACTUAL DEVELOPMENT IS HERE: https://github.com/piodabro/rx5808-pro-diversity-pro58
+
+
 # ![Logo](Docs/DSC_0556.JPG)
 
 #### Travis builds
